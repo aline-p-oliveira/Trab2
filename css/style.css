@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section.primeira-coluna {
+  width: 40vw;
+  height: 100vh;
+  background-image: url(../images/recados.jpg);
+  position: absolute;
+  left: 0;
+}
+
+section.segunda-coluna {
+  width: 60vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+div {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input:disabled {
+  background-color: rgb(176, 176, 176);
+}
+
+button {
+  display: block;
+  font-size: 18px;
+  width: 515px;
+  height: 40px;
+  margin-bottom: 15px;
+  background-color: green;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: green;
+}
+
+.conteudo {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.primeira-coluna {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  background-image: url(../images/bg-image.jpg);
+  background-size: cover;
+}
+
+.segunda-coluna {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+
+div.row {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+div.row.container-cadastro {
+  height: 90vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titulo {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.formulario {
+  margin: 20px;
+  text-align: center;
+}
+
+input.cadastro {
+  display: block;
+  margin-bottom: 15px;
+  width: 415px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  border: 1px solid darkgrey;
+  color: black;
+  outline: none;
+}
+
+input:hover {
+  border: 1px solid grey;
+}
+
+button.btn-cadastro {
+  display: block;
+  margin-top: 20px;
+  width: 425px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+button.btn {
+  display: block;
+  margin-top: 20px;
+  width: 522px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+input.btnEntrar {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+input.salvar {
+  display: inline-block;
+  background: #04911c;
+  width: 70px;
+  height: 34px;
+  cursor: pointer;
+}
+
+input.atualizar {
+  display: inline-block;
+  background: #04911c;
+  width: 85px;
+  height: 34px;
+  display: none;
+  cursor: pointer;
+}
+
+input.cancelar {
+  display: inline-block;
+  background: red;
+  width: 85px;
+  height: 34px;
+  display: none;
+  cursor: pointer;
+}
+
+input.btnEntrar:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+input.btnCadastro:hover {
+  background-color: rgba(46, 255, 255, 0.852);
+  color: black;
+}
+
+input.salvar:hover {
+  background-color: mediumslateblue;
+  color: white;
+}
+
+button.apagar:hover {
+  background-color: red;
+  color: white;
+  border-radius: 0%;
+}
+
+button.editar:hover {
+  background-color: rgba(46, 255, 255, 0.852);
+  color: black;
+  border-radius: 0%;
+}
+
+h1 {
+  margin-bottom: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  color: palevioletred;
+}
+
+h1.cadastro {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  color: palevioletred;
+  margin-bottom: 50px;
+}
+
+h1.home {
+  margin-bottom: 8px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+table {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-collapse: collapse;
+  width: 1000px;
+  margin-left: 70px;
+}
+
+tr,th {
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  width: 200px;
+  height: 100px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#sair{
+
+}

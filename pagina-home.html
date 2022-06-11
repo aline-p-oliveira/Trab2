@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Acesso</title>
+</head>
+
+<body>
+  <main>
+    <button type="button" id="sair">Sair</button>
+    <h1 class="home">Meus Recados</h1>
+    <div class="home">
+      <form id="formulario-recados">
+        <input class="home" type="number" id="inputCodigo" placeholder="Código" required/>
+
+        <input class="home" type="text" id="inputDescricao" placeholder="Descrição" required/>
+
+        <input class="home2" type="text" id="inputDetalhamento" placeholder="Detalhamento" required/>
+
+        <input type="submit" class="salvar" value="Salvar" id="salvarRegistro"/>
+        <input type="button" class="atualizar" value="atualizar" id="btn-atualizar"/>
+        <input type="button" class="cancelar" value="cancelar" id="btn-cancelar">
+      </form>
+      <div class="tabela">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Descrição</th>
+              <th>Detalhamento</th>
+              <th>Ações:</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-recados">
+            <tr class="registros">
+              <td>ID do registro</td>
+              <td>Exemplo Descrição</td>
+              <td>Exemplo Detalhamento</td>
+              <td>
+                <button class="editar" onclick="editarRecado(123)"> Editar </button>
+                <button class="apagar" onclick="apagarRecado(123)"> Apagar </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <script src="./js/home.js"></script>
+</body>
+
+</html>
