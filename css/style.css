@@ -113,8 +113,7 @@ div.row.container-cadastro {
 }
 
 .formulario {
-  margin: 20px;
-  text-align: center;
+ text-align: center;
 }
 
 input.cadastro {
@@ -127,7 +126,7 @@ input {
   width: 250px;
   height: 40px;
   font-size: 20px;
-  padding-left: 5px;
+  padding-left: 1px;
   border: 1px solid darkgrey;
   color: black;
   outline: none;
@@ -179,6 +178,7 @@ input.btnEntrar {
 input.salvar {
   display: inline-block;
   background: #04911c;
+  color: white;
   width: 70px;
   height: 34px;
   cursor: pointer;
@@ -229,19 +229,14 @@ button.editar:hover {
   border-radius: 0%;
 }
 
+
 h1 {
-  margin-bottom: 300px;
+  margin: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 60px;
   color: palevioletred;
 }
 
-h1.cadastro {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 60px;
-  color: palevioletred;
-  margin-bottom: 50px;
-}
 
 h1.home {
   margin-bottom: 8px;
@@ -254,7 +249,7 @@ table {
   border-top: solid 2px;
   border-collapse: collapse;
   width: 1000px;
-  margin-left: 70px;
+  margin-left: 20px;
 }
 
 tr,th {
@@ -267,5 +262,16 @@ tr,th {
 }
 
 #sair{
-
+  display: block;
+  margin-top: 20px;
+  margin-left: 156vh;
+  width: 80px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 1;
+  font-size: 18px;
 }
